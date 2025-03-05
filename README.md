@@ -3,7 +3,13 @@ Ever wondered what makes a great white wine? In this project, we use Bayesian st
   + High quality (Rating ≥ 7)
   + Not high quality (Rating ≤ 6)
 
-By comparing non-informative vs. informative priors, we also explore how expert knowledge influences our predictions
+By comparing non-informative vs. informative priors, we also explore how expert knowledge influences our predictions.
+
+## Features
+- Bayesian Logistic Regression for classification using both non-informative and informative priors
+- MCMC Sampling with JAGS for posterior inference
+- Sensitivity Analysis to test model robustness
+- Performance Evaluation: Accuracy, Precision, Recall, and F1-score
 
 ## Dataset
 - The dataset originates from Cortez et al. (2009) "Modeling Wine Preferences by Data Mining from Physicochemical Properties."
@@ -29,9 +35,17 @@ By comparing non-informative vs. informative priors, we also explore how expert 
 ### Confusion Matrix 
 - We used Confusion Matrices to evaluate classification performance through accuracy, precision, recall, F1-score.
 
-  ## Results
+## Results
+- Both non-informative and informative prior models produced strong classification accuracy (~78%). The informative prior model performed slightly better, proving that expert knowledge can improve predictions
+- Key features affecting wine quality:
+  + Positive impact: pH, Sulphates, Alcohol, Residual Sugar, Fixed Acidity
+  + Negative impact: Volatile Acidity, Citric Acid, Chlorides, Density
+- Feature Importance Insights:
+  + Sulphates and Alcohol have the highest positive contributions
+  + Volatile Acidity and Chlorides significantly reduce wine quality
+- Sensitivity analysis confirmed that priors didn't overly bias results
 
-  ## References
+## References
 Cortez, P. et al (2009). Modeling wine preferences by data mining from physicochemical properties. Semantic Scholar. https://www.semanticscholar.org/paper/Modeling-wine-preferences-by-data-mining-from-Cortez-Cerdeira/bf15a0ccc14ac1deb5cea570c870389c16be019c
 
 Cortez, P. et al (2009). Wine Quality [Dataset]. Machine Learning Repository. https://archive.ics.uci.edu/dataset/186/wine+quality
@@ -43,3 +57,5 @@ Demirhan, H. (n.d.) Beta Distribution Specified by Mean and Concentration. [Shin
 H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
 
 Kruschke, J. K. (2015). Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan. Academic Press / Elsevier. 
+
+This project isn't just about predicting wine quality—it's about understanding the hidden chemistry behind great wine. Whether you're a Bayesian stats geek or just someone who enjoys a good glass of wine, we hope you find our findings insightful! 
