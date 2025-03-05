@@ -58,4 +58,4 @@ H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New Yor
 
 Kruschke, J. K. (2015). Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan. Academic Press / Elsevier. 
 
-This project isn't just about predicting wine quality—it's about understanding the hidden chemistry behind great wine. Whether you're a Bayesian stats geek or just someone who enjoys a good glass of wine, we hope you find our findings insightful! 
+This project isn't just about predicting wine quality, it's about understanding the hidden chemistry behind great wine. Whether you're a Bayesian stats geek or just someone who enjoys a good glass of wine, we hope you find our findings insightful! 
