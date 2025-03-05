@@ -1,7 +1,7 @@
 # Wine Quality Prediction using Bayesian Methods
 This project applies Bayesian logistic regression to classify white wines into two categories:
   + High quality (Rating ≥ 7)
-  + Not high quality (Rating ≤ 6)/
+  + Not high quality (Rating ≤ 6)\
 Using Bayesian inference and Markov Chain Monte Carlo (MCMC) methods, we predict wine quality based on physicochemical properties such as acidity, sugar content, and alcohol levels.
 
 ## Dataset
