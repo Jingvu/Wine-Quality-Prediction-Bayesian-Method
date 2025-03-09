@@ -1,9 +1,5 @@
 # Wine Quality Prediction using Bayesian Methods
-Ever wondered what makes a great white wine? In this project, we use Bayesian statistics to predict wine quality based on physicochemical properties like acidity, sugar content, and alcohol levels. Using Bayesian logistic regression and MCMC sampling (JAGS), we classify wines into two categories:
-  + High quality (Rating ≥ 7)
-  + Not high quality (Rating ≤ 6)
-
-By comparing non-informative vs. informative priors, we also explore how expert knowledge influences our predictions.
+Ever wondered what makes a great white wine? In this project, we use Bayesian statistics to predict wine quality based on physicochemical properties like acidity, sugar content, and alcohol levels. Using Bayesian logistic regression and MCMC sampling (JAGS). It explores how different physicochemical properties impact wine ratings, providing actionable insights for wine producers. By comparing non-informative vs. informative priors, we also explore how expert knowledge influences our predictions.
 
 ## Features
 - Bayesian Logistic Regression for classification using both non-informative and informative priors
